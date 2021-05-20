@@ -18,6 +18,13 @@ public class FilmCategory  implements java.io.Serializable {
     public FilmCategory() {
     }
 
+    @Override
+    public String toString() {
+        return "FilmCategory{" + "id=" + id + '}';
+    }
+    
+    
+
     public FilmCategory(FilmCategoryId id, Category category, Film film, Date lastUpdate) {
        this.id = id;
        this.category = category;

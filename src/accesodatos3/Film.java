@@ -14,6 +14,7 @@ public class Film  implements java.io.Serializable {
 
 
      private Short filmId;
+     private Short id;
      private Language languageByLanguageId;
      private Language languageByOriginalLanguageId;
      private String title;
